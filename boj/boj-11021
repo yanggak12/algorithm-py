@@ -1,0 +1,11 @@
+def solution():
+    answer = 0
+    n = int(input())
+    for i in range(n):
+        a, b = map(int, input().split())
+        print("Case #"+str(i+1)+": "+str(a+b))
+    return answer
+
+
+if __name__ == '__main__':
+    solution()
